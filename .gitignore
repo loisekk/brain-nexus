@@ -1,0 +1,10 @@
+.vercel
+.env*.local
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+playwright-report/
+test-results/
+brain-nexus/
+public/knowledge-graph.json
