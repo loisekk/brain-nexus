@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "frontend",
+  "owner": "pluginagentmarketplace",
+  "repo": "custom-plugin-nextjs",
+  "path": "custom-plugin-nextjs/skills/frontend",
+  "branch": "main",
+  "sha": "670078c50882b86624c9f5f463680ba7b155f766",
+  "source": "manual"
+}

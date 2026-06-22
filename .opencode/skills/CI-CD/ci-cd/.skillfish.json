@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "ci-cd",
+  "owner": "srstomp",
+  "repo": "pokayokay",
+  "path": "plugins/pokayokay/skills/ci-cd",
+  "branch": "master",
+  "sha": "61bba342dbbffae738242dccb7eea9974159db88",
+  "source": "manual"
+}

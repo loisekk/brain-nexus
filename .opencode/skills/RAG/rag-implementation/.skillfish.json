@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "rag-implementation",
+  "owner": "wshobson",
+  "repo": "agents",
+  "path": "plugins/llm-application-dev/skills/rag-implementation",
+  "branch": "main",
+  "sha": "433ac3eeec5364a6e68018f1a33da44632ed99cd",
+  "source": "manual"
+}

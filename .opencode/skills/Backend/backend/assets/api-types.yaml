@@ -1,0 +1,85 @@
+# TypeScript Backend API Types
+# REST API and Database type definitions
+
+# HTTP Types
+http_types:
+  request: |
+    interface Request<B = unknown, P = unknown, Q = unknown> {
+      body: B;
+      params: P;
+      query: Q;
+      headers: Record<string, string>;
+      method: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
+    }
+
+  response: |
+    interface Response<T = unknown> {
+      status: number;
+      data: T;
+      message?: string;
+      errors?: ValidationError[];
+    }
+
+  pagination: |
+    interface PaginatedResponse<T> {
+      data: T[];
+      total: number;
+      page: number;
+      pageSize: number;
+      totalPages: number;
+    }
+
+# Database Types
+database_types:
+  entity: |
+    interface BaseEntity {
+      id: string;
+      createdAt: Date;
+      updatedAt: Date;
+    }
+
+  user: |
+    interface User extends BaseEntity {
+      email: string;
+      name: string;
+      role: 'admin' | 'user' | 'guest';
+      passwordHash: string;
+    }
+
+  repository: |
+    interface Repository<T extends BaseEntity> {
+      findById(id: string): Promise<T | null>;
+      findAll(options?: QueryOptions): Promise<T[]>;
+      create(data: Omit<T, keyof BaseEntity>): Promise<T>;
+      update(id: string, data: Partial<T>): Promise<T>;
+      delete(id: string): Promise<boolean>;
+    }
+
+# Authentication Types
+auth_types:
+  jwt: |
+    interface JWTPayload {
+      sub: string;
+      iat: number;
+      exp: number;
+      role: string;
+    }
+
+  session: |
+    interface Session {
+      userId: string;
+      token: string;
+      expiresAt: Date;
+    }
+
+# Validation Types
+validation_types:
+  error: |
+    interface ValidationError {
+      field: string;
+      message: string;
+      code: string;
+    }
+
+  schema: |
+    type Validator<T> = (value: unknown) => T | ValidationError[];
