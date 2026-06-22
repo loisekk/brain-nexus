@@ -164,8 +164,8 @@ brain-nexus is a **browser-first** knowledge graph visualizer built on the GitNe
 ```
 Frontend (brain-nexus)           Backend (FastAPI — planned)
 ┌─────────────────────┐        ┌──────────────────┐
-│ Sigma.js + React 19 │────────▶ /api/chat        │
-│ ⌘K Search           │        │ /api/synapse     │
+│ Sigma.js + React 19 │────────▶ /api/chat        |
+│ ⌘K Search          │        │ /api/synapse     │
 │ 3 Layout Modes      │        │ /api/search      │
 │ File Tree           │        │ /api/node/:id    │
 │ Synapse Query FAB   │        │ /api/embed       │
