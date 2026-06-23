@@ -29,6 +29,7 @@
 
 Built on [GitNexus](https://github.com/abhigyanpatwari/GitNexus) — the zero-server code intelligence engine — with **custom data sources** (Galaxy + Graphify) and unique branding.
 
+https://github.com/user-attachments/assets/172685ba-8e54-4ea7-9ad1-e31a3398da72
 ---
 
 ## Features
@@ -42,6 +43,7 @@ Built on [GitNexus](https://github.com/abhigyanpatwari/GitNexus) — the zero-se
 | 🌙 **Dark theme** — responsive, collapsible panels, mobile-ready | 🔌 **Local backend support** — auto-connect to `gitnexus serve` |
 
 ---
+
 
 ## Two Ways to Use
 
