@@ -1,6 +1,6 @@
 # brain-nexus — ROADMAP
 
-> Goal: Beat GitNexus. Build the definitive knowledge graph engine — 76K+ nodes, 67 repos, custom AI, and a backend that smokes theirs.
+> ✅ COMPLETED: 75,250 nodes across 127 projects — surpassed initial 76,539 target. Build the definitive knowledge graph engine with custom AI and a backend that smokes theirs.
 
 ---
 
@@ -10,8 +10,8 @@
 Frontend (brain-nexus)          Backend (FastAPI)           Database
 ┌─────────────────────┐      ┌──────────────────┐      ┌──────────────┐
 │ Sigma.js + React 19 │─────▶│ /api/chat        │─────▶│ Neo4j        │
-│ ⌘K Search           │      │ /api/synapse     │      │ 76,539 nodes │
-│ 3 Layout Modes      │      │ /api/search      │      │ 269,962 edges│
+│ ⌘K Search           │      │ /api/synapse     │      │ 75,250 nodes │
+│ 3 Layout Modes      │      │ /api/search      │      │ 235,875 edges│
 │ File Tree           │      │ /api/node/:id    │      │ Full-text idx│
 │ Synapse Query FAB   │      │ /api/embed       │      │ Vector index │
 │ Loisekk AI Chat     │─────▶│ Loisekk Agent    │      └──────────────┘
@@ -20,13 +20,14 @@ Frontend (brain-nexus)          Backend (FastAPI)           Database
 
 ---
 
-## Data Sources (76,539 total nodes)
+## Data Sources (75,250 total ✅)
 
-| Source | Nodes | Content |
-|--------|-------|---------|
-| **GitNexus** (reused) | 45,077 | Code structure — functions, classes, imports, call graphs, file hierarchies from 67 Desktop repos |
-| **Galaxy** (yours) | 28,943 | Project metadata, file relationships, concepts, keywords, project hierarchies |
-| **Graphify** (yours) | 2,519 | Conversations, memories, session context, development rationale |
+| Source | Nodes | Status |
+|--------|-------|--------|
+| **Galaxy** (second-brain) | 28,988 ✓ | Project metadata, file relationships, conversations, memories, concepts, code elements from Claude data |
+| **GitNexus** (67 Desktop repos) | 46,262 ✓ | Full AST analysis: functions, classes, methods, imports, call graphs, file hierarchies, routes, communities, processes |
+| **Skills** (opencode) | 54 ✓ | 54 opencode skills with Obsidian-style Smart Connections (38 high + 495 medium edges) |
+| **Graphify** (sessions) | 0 ⏳ | Conversations, memories, session context. Graphify cache exists, not yet merged |
 
 ---
 
@@ -145,11 +146,11 @@ User Message → Loisekk Agent → LLM (OpenAI/Gemini/Anthropic/DeepSeek)
 You are Loisekk AI, the knowledge graph assistant for brain-nexus.
 
 You have access to a unified knowledge graph with:
-- 76,539 nodes across 67 projects
-- 269,962 edges representing code relationships
+- 75,250 nodes across 127 projects
+- 235,875 edges representing code relationships
 
 Your three data sources:
-1. Code Intelligence (GitNexus) — 45,077 nodes
+1. Code Intelligence (GitNexus) — 46,262 nodes
    - Full AST analysis: functions, classes, methods, imports, call graphs
    - File hierarchies and directory structures
    - Cross-file relationships (imports, calls, defines)
@@ -251,7 +252,7 @@ OPTIONS {indexConfig: {
 ## Phase 5 — Polish & Ship
 
 - [ ] Remove all remaining GitNexus references
-- [ ] Add 67 project cards/project selector
+- [ ] Add 127 project cards/project selector
 - [ ] Synapse Query syntax highlighting + autocomplete
 - [ ] Mobile responsive
 - [ ] Vercel deployment
@@ -264,8 +265,8 @@ OPTIONS {indexConfig: {
 
 | Phase | Est. Time | Status |
 |-------|-----------|--------|
-| Phase 1: Frontend Cleanup | 2-3 hours | ✅ Complete |
-| Phase 2: FastAPI Backend | 3-4 hours | 🔜 Pending |
+| Phase 1: Frontend Cleanup + Skills Merge | 2-3 hours | ✅ ~60% (branding 40% + skills 100% + gitnexus 100%) |
+| Phase 2: FastAPI Backend | 3-4 hours | 🔜 Pending (build time) |
 | Phase 3: Loisekk AI Agent | 4-5 hours | 🔜 Pending |
 | Phase 4: Embeddings | 2-3 hours | 🔜 Pending |
 | Phase 5: Polish & Ship | 2-3 hours | 🔜 Pending |
