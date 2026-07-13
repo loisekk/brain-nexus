@@ -227,7 +227,7 @@ export function streamSSE<T = unknown>(url: string, handlers: SSEHandlers<T>): A
 
 // ── Configuration ──────────────────────────────────────────────────────────
 
-let _backendUrl = 'http://localhost:4747';
+let _backendUrl = 'http://localhost:8000';
 
 /**
  * Validate that a backend URL is a safe http:// or https:// origin before
