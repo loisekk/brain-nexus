@@ -1,10 +1,90 @@
-.vercel
-.env*.local
+# Dependencies
 node_modules/
+
+# Build output
 dist/
+
+# TypeScript build info
 *.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
 coverage/
 playwright-report/
 test-results/
+
+# Misc
+*.local
+.vercel
+
+# GitNexus brain artifacts
 brain-nexus/
-public/knowledge-graph.json
+.gitnexus
+
+# Claude config
+.claude/settings.local.json
+.claude/worktrees/
+.claude/skills/generated/
+.claude/agents/*
+!.claude/agents/gitnexus-*.md
+.claude/commands/
+.claude/helpers
+.claude/skills/*
+!.claude/skills/gitnexus/
+!.claude/skills/gitnexus-pr-swarm-review/
+
+# OpenCode config
+.opencode/
+
+# Assets (screenshots, images)
+assets/
+
+# Generated reports
+repomix-output*
+
+# Python artifacts
+__pycache__/
+*.pyc
+eval/.coverage
+eval/.hypothesis/
+
+# Local docs
+docs/
+local_docs/
+
+# Git worktrees
+.worktrees/
+
+# Agent scratch
+.tmp/
+.agents/
+.context/
+.history/
+.swarm/
+.claude-flow/
+
+# Vendored build artifacts
+gitnexus/vendor/**/build/
+gitnexus/vendor/**/node_modules/
+
+# Galaxy build outputs
+galaxy-react/dist/
+galaxy-react/node_modules/
