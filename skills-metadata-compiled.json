@@ -1,0 +1,692 @@
+[
+  {
+    "name": "caveman",
+    "category": "caveman",
+    "path": ".opencode/skills/caveman/SKILL.md",
+    "description": "Ultra-compressed communication mode. Cuts token usage ~75% by speaking like caveman while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra, wenyan-lite, wenyan-full, wenyan-ultra.",
+    "triggers": ["caveman mode", "talk like caveman", "use caveman", "less tokens", "be brief", "/caveman", "token efficiency"],
+    "tags": ["communication", "compression", "tokens"],
+    "skillfish": null
+  },
+  {
+    "name": "backend-core",
+    "category": "Backend",
+    "path": ".opencode/skills/Backend/backend-core/SKILL.md",
+    "description": "Language-agnostic backend patterns: API design, authentication, security, databases.",
+    "triggers": ["api design", "rest api", "graphql", "authentication", "jwt", "oauth", "security", "owasp", "database schema", "migrations", "sql"],
+    "tags": ["backend", "api", "auth", "security", "database"],
+    "skillfish": {
+      "owner": "timequity",
+      "repo": "plugins",
+      "path": "craft-coder/backend-core",
+      "branch": "main",
+      "sha": "77a010c37a6ab125ffddb3f28bf5b37538624817"
+    }
+  },
+  {
+    "name": "backend",
+    "category": "Backend",
+    "path": ".opencode/skills/Backend/backend/SKILL.md",
+    "description": "Master backend development with Node.js, Python, Java, Go, Rust, API design, databases, and microservices.",
+    "triggers": ["building APIs", "designing systems", "learning backend frameworks"],
+    "tags": ["backend", "api", "microservices", "database"],
+    "skillfish": {
+      "owner": "pluginagentmarketplace",
+      "repo": "custom-plugin-typescript",
+      "path": "skills/backend",
+      "branch": "main",
+      "sha": "eba8e5531d38627e80ea6c6e21c9e29a5acae410"
+    }
+  },
+  {
+    "name": "backend-core",
+    "category": "Backend",
+    "path": ".opencode/skills/Backend/backend/backend-core/SKILL.md",
+    "description": "Language-agnostic backend patterns: API design, authentication, security, databases.",
+    "triggers": ["api design", "rest api", "graphql", "authentication", "jwt", "oauth", "security", "owasp", "database schema", "migrations", "sql"],
+    "tags": ["backend", "api", "auth", "security", "database"],
+    "skillfish": {
+      "owner": "timequity",
+      "repo": "plugins",
+      "path": "craft-coder/backend-core",
+      "branch": "main",
+      "sha": "77a010c37a6ab125ffddb3f28bf5b37538624817"
+    }
+  },
+  {
+    "name": "rag-implementation",
+    "category": "RAG",
+    "path": ".opencode/skills/RAG/rag-implementation/SKILL.md",
+    "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search.",
+    "triggers": ["implementing knowledge-grounded AI", "building document Q&A systems", "integrating LLMs with external knowledge bases"],
+    "tags": ["rag", "llm", "vector-database", "semantic-search", "ai"],
+    "skillfish": {
+      "owner": "wshobson",
+      "repo": "agents",
+      "path": "plugins/llm-application-dev/skills/rag-implementation",
+      "branch": "main",
+      "sha": "433ac3eeec5364a6e68018f1a33da44632ed99cd"
+    }
+  },
+  {
+    "name": "ci-cd",
+    "category": "CI-CD",
+    "path": ".opencode/skills/CI-CD/ci-cd/SKILL.md",
+    "description": "Use when creating or debugging CI/CD pipelines, implementing deployment strategies (blue-green, canary, rolling), optimizing build times, reviewing pipeline security, or working with GitHub Actions, GitLab CI, CircleCI, Azure DevOps, or Bitbucket Pipelines.",
+    "triggers": ["creating CI/CD pipelines", "debugging pipelines", "deployment strategies", "blue-green", "canary", "rolling", "GitHub Actions", "GitLab CI", "CircleCI", "Azure DevOps", "Bitbucket Pipelines"],
+    "tags": ["ci/cd", "devops", "deployment", "pipelines"],
+    "skillfish": {
+      "owner": "srstomp",
+      "repo": "pokayokay",
+      "path": "plugins/pokayokay/skills/ci-cd",
+      "branch": "master",
+      "sha": "61bba342dbbffae738242dccb7eea9974159db88"
+    }
+  },
+  {
+    "name": "18-ml-engineer",
+    "category": "ML-AI",
+    "path": ".opencode/skills/ML-AI/18-ml-engineer/SKILL.md",
+    "description": "Use when building ML pipelines, training models, evaluating LLMs, setting up RAG systems, or designing model deployment architectures with validation at every stage",
+    "triggers": ["building ML pipelines", "training models", "evaluating LLMs", "setting up RAG systems", "designing model deployment architectures"],
+    "tags": ["ml", "ai", "pipeline", "training", "llm", "rag", "deployment"],
+    "skillfish": {
+      "owner": "k1lgor",
+      "repo": "virtual-company",
+      "path": "skills/18-ml-engineer",
+      "branch": "main",
+      "sha": "16f0770c303aa7d9d3510a2467549ab139f54d9b"
+    }
+  },
+  {
+    "name": "frontend",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/SKILL.md",
+    "description": "Master HTML5, CSS3, JavaScript ES6+, React, Vue, Angular, and modern web development. Learn responsive design, accessibility, and web performance optimization.",
+    "triggers": ["frontend development", "html", "css", "javascript", "react", "vue", "angular", "responsive design", "accessibility", "web performance"],
+    "tags": ["frontend", "html", "css", "javascript", "react", "vue", "angular", "web"],
+    "skillfish": {
+      "owner": "pluginagentmarketplace",
+      "repo": "custom-plugin-nextjs",
+      "path": "custom-plugin-nextjs/skills/frontend",
+      "branch": "main",
+      "sha": "670078c50882b86624c9f5f463680ba7b155f766"
+    }
+  },
+  {
+    "name": "web3d-integration-patterns",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/web3d-integration-patterns/SKILL.md",
+    "description": "Meta-skill for combining Three.js, GSAP ScrollTrigger, React Three Fiber, Motion, and React Spring for complex 3D web experiences.",
+    "triggers": ["library integration", "multi-library architectures", "scroll-driven 3D experiences", "physics-based 3D animations", "complex interactive 3D applications"],
+    "tags": ["3d", "web", "integration", "three.js", "gsap", "react-three-fiber", "motion", "react-spring"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/web3d-integration-patterns",
+      "branch": "main",
+      "sha": "e93c386995ffafa367d4e6c6102c76364ce4f140"
+    }
+  },
+  {
+    "name": "ui-ux-pro-max",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/ui-ux-pro-max/SKILL.md",
+    "description": "UI/UX design intelligence for web and mobile. Includes 50+ styles, 161 color palettes, 57 font pairings, 161 product types, 99 UX guidelines, and 25 chart types across 10 stacks.",
+    "triggers": ["UI/UX design", "design system", "UI components", "accessibility", "color palettes", "typography", "font pairing", "layout", "interaction states"],
+    "tags": ["ui/ux", "design", "frontend", "accessibility", "typography", "color"],
+    "skillfish": null
+  },
+  {
+    "name": "typescript-development",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/typescript-development/SKILL.md",
+    "description": "Covers TypeScript 5+, React 18+, Next.js 14+ App Router, Zustand, Tailwind CSS, and Vitest testing.",
+    "triggers": ["writing TypeScript applications", "React components", "Node.js services"],
+    "tags": ["typescript", "react", "next.js", "zustand", "tailwind", "vitest"],
+    "skillfish": {
+      "owner": "levifig",
+      "repo": "loaf",
+      "path": "content/skills/typescript-development",
+      "branch": "main",
+      "sha": "2a4ccc26bb2e8304a9073aecacfdf9e430855fda"
+    }
+  },
+  {
+    "name": "threejs-webgl",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/threejs-webgl/SKILL.md",
+    "description": "Comprehensive skill for Three.js 3D web development. Use when building interactive 3D scenes, WebGL/WebGPU applications, product configurators, 3D visualizations, or immersive web experiences.",
+    "triggers": ["Three.js", "3D rendering", "scenes", "cameras", "meshes", "materials", "lights", "animations", "textures", "WebGL", "WebGPU"],
+    "tags": ["three.js", "3d", "webgl", "webgpu", "rendering"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/threejs-webgl",
+      "branch": "main",
+      "sha": "1b1c5c4a3cc47f16a7005140d5ee5421a78126a4"
+    }
+  },
+  {
+    "name": "react-three-fiber",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/react-three-fiber/SKILL.md",
+    "description": "Build declarative 3D scenes with React Three Fiber (R3F) - a React renderer for Three.js.",
+    "triggers": ["building interactive 3D experiences in React", "product configurators", "portfolios", "games", "data visualization", "immersive web experiences"],
+    "tags": ["react", "three.js", "3d", "r3f", "declarative"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/react-three-fiber",
+      "branch": "main",
+      "sha": "a1cee16c006c5228a167e968c18d4271981e43dc"
+    }
+  },
+  {
+    "name": "babylonjs-engine",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/babylonjs-engine/SKILL.md",
+    "description": "Comprehensive skill for Babylon.js 3D web rendering engine with built-in editor integration and game engine features.",
+    "triggers": ["building real-time 3D experiences", "browser-based games", "interactive visualizations", "immersive web applications", "Babylon.js", "3D scenes", "WebGL", "WebGPU"],
+    "tags": ["babylon.js", "3d", "game-engine", "webgl", "webgpu"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/babylonjs-engine",
+      "branch": "main",
+      "sha": "f798d4a00019fd9b93d1459ff5076923ae0d2860"
+    }
+  },
+  {
+    "name": "motion-framer",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/motion-framer/SKILL.md",
+    "description": "Modern animation library for React and JavaScript. Create smooth, production-ready animations with motion components, variants, gestures, layout animations, AnimatePresence, spring physics, and scroll-based effects.",
+    "triggers": ["building interactive UI components", "micro-interactions", "page transitions", "complex animation sequences", "Framer Motion"],
+    "tags": ["animation", "react", "framer-motion", "ui", "gestures"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/motion-framer",
+      "branch": "main",
+      "sha": "9f9aaf11362fc80d51940023558baddc5ddb5609"
+    }
+  },
+  {
+    "name": "react-spring-physics",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/react-spring-physics/SKILL.md",
+    "description": "Physics-based animation library combining React Spring (spring dynamics, gesture integration, 60fps animations) and Popmotion (low-level composable animation utilities, reactive streams).",
+    "triggers": ["fluid UI animations", "gesture-driven interfaces", "physics simulations", "spring-loaded interactions", "react-spring", "popmotion"],
+    "tags": ["physics", "animation", "react", "spring", "gestures"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/react-spring-physics",
+      "branch": "main",
+      "sha": "3ffed71aa93ff3958e9744ea004d64f9dba540c3"
+    }
+  },
+  {
+    "name": "gsap-scrolltrigger",
+    "category": "GSAP",
+    "path": ".opencode/skills/GSAP/gsap-scrolltrigger/gsap-scrolltrigger/SKILL.md",
+    "description": "Comprehensive skill for GSAP (GreenSock Animation Platform) and ScrollTrigger plugin. Use when creating web animations, scroll-driven experiences, timelines, tweens, scroll-triggered animations, pinning, scrubbing, parallax effects.",
+    "triggers": ["GSAP", "ScrollTrigger", "smooth animations", "scroll effects", "animation sequencing", "scroll-driven animation", "pinning", "parallax"],
+    "tags": ["gsap", "scrolltrigger", "animation", "scroll", "parallax"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/gsap-scrolltrigger",
+      "branch": "main",
+      "sha": "164ab3849ef39c702a711b211a9bec9016b0ff0f"
+    }
+  },
+  {
+    "name": "gsap-core",
+    "category": "GSAP",
+    "path": ".config/opencode/skills/gsap-core/SKILL.md",
+    "description": "Official GSAP skill for the core API — gsap.to(), from(), fromTo(), easing, duration, stagger, defaults, gsap.matchMedia() (responsive, prefers-reduced-motion).",
+    "triggers": ["JavaScript animation library", "animation in React/Vue/vanilla", "GSAP tweens", "easing", "basic animation", "responsive animation", "reduced-motion animation", "animating DOM/SVG with GSAP"],
+    "tags": ["gsap", "animation", "core", "tween", "easing", "javascript"],
+    "skillfish": null
+  },
+  {
+    "name": "gsap-timeline",
+    "category": "GSAP",
+    "path": ".config/opencode/skills/gsap-timeline/SKILL.md",
+    "description": "Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting, playback.",
+    "triggers": ["sequencing animations", "choreographing keyframes", "animation sequencing", "timelines", "animation order"],
+    "tags": ["gsap", "timeline", "sequencing", "animation"],
+    "skillfish": null
+  },
+  {
+    "name": "gsap-plugins",
+    "category": "GSAP",
+    "path": ".config/opencode/skills/gsap-plugins/SKILL.md",
+    "description": "Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, ScrambleText, SVG and physics plugins, CustomEase, EasePack, CustomWiggle, CustomBounce, GSDevTools.",
+    "triggers": ["GSAP plugin", "scroll-to", "flip animations", "draggable", "SVG drawing", "plugin registration"],
+    "tags": ["gsap", "plugins", "scroll", "flip", "draggable", "svg", "physics", "easing"],
+    "skillfish": null
+  },
+  {
+    "name": "gsap-react",
+    "category": "GSAP",
+    "path": ".config/opencode/skills/gsap-react/SKILL.md",
+    "description": "Official GSAP skill for React — useGSAP hook, refs, gsap.context(), cleanup.",
+    "triggers": ["animation in React or Next.js", "GSAP with React", "useGSAP", "cleanup on unmount"],
+    "tags": ["gsap", "react", "next.js", "hook", "animation"],
+    "skillfish": null
+  },
+  {
+    "name": "gsap-frameworks",
+    "category": "GSAP",
+    "path": ".config/opencode/skills/gsap-frameworks/SKILL.md",
+    "description": "Official GSAP skill for Vue, Svelte, and other non-React frameworks — lifecycle, scoping selectors, cleanup on unmount.",
+    "triggers": ["animation in Vue", "Nuxt", "Svelte", "SvelteKit", "GSAP with Vue/Svelte", "onMounted", "onMount", "onDestroy"],
+    "tags": ["gsap", "vue", "svelte", "nuxt", "sveltekit", "animation", "lifecycle"],
+    "skillfish": null
+  },
+  {
+    "name": "gsap-performance",
+    "category": "GSAP",
+    "path": ".config/opencode/skills/gsap-performance/SKILL.md",
+    "description": "Official GSAP skill for performance — prefer transforms, avoid layout thrashing, will-change, batching.",
+    "triggers": ["optimizing GSAP animations", "reducing jank", "animation performance", "FPS", "smooth 60fps"],
+    "tags": ["gsap", "performance", "optimization", "animation"],
+    "skillfish": null
+  },
+  {
+    "name": "gsap-utils",
+    "category": "GSAP",
+    "path": ".config/opencode/skills/gsap-utils/SKILL.md",
+    "description": "Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, random, snap, toArray, wrap, pipe.",
+    "triggers": ["gsap.utils", "clamp", "mapRange", "random", "snap", "toArray", "wrap", "helper utilities in GSAP"],
+    "tags": ["gsap", "utilities", "math", "helpers"],
+    "skillfish": null
+  },
+  {
+    "name": "animejs",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/animejs/SKILL.md",
+    "description": "Versatile JavaScript animation engine for DOM, CSS, SVG, and JavaScript objects. Use when creating timeline-based animations, stagger effects, SVG morphing, keyframe sequences, or complex choreographed animations.",
+    "triggers": ["Anime.js", "timeline animations", "staggered sequences", "SVG path animations", "morphing", "multi-step animation choreography"],
+    "tags": ["anime.js", "animation", "javascript", "svg", "timeline"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/animejs",
+      "branch": "main",
+      "sha": "ffd8bc59973645fe98cae5851b0461c4d0ee050e"
+    }
+  },
+  {
+    "name": "lottie-animations",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/lottie-animations/SKILL.md",
+    "description": "After Effects animation rendering for web and React applications. Use when implementing Lottie animations, JSON vector animations, interactive animated icons, micro-interactions, or loading animations.",
+    "triggers": ["Lottie", "lottie-web", "lottie-react", "dotLottie", "After Effects JSON export", "bodymovin", "animated SVG alternatives", "designer-created animations"],
+    "tags": ["lottie", "animation", "after-effects", "json", "vector", "react"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/lottie-animations",
+      "branch": "main",
+      "sha": "b18fd468bb1c223be93b240c3370f2cfae727569"
+    }
+  },
+  {
+    "name": "rive-interactive",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/rive-interactive/SKILL.md",
+    "description": "State machine-based vector animation with runtime interactivity and web integration. Use when creating interactive animations, state-driven UI, animated components with logic, or designer-created animations with runtime control.",
+    "triggers": ["Rive", "state machines", "interactive vector animations", "animation with input handling", "ViewModel data binding", "React Rive integration"],
+    "tags": ["rive", "animation", "state-machine", "interactive", "vector"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/rive-interactive",
+      "branch": "main",
+      "sha": "86ea6e880bd55b27e3939359971ea58d2b2fd45f"
+    }
+  },
+  {
+    "name": "pixijs-2d",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/pixijs-2d/SKILL.md",
+    "description": "Fast, lightweight 2D rendering engine for creating interactive graphics, particle effects, and canvas-based applications using WebGL/WebGPU.",
+    "triggers": ["PixiJS", "2D rendering", "particle systems", "interactive canvases", "sprite animations", "UI overlays on 3D scenes"],
+    "tags": ["pixi.js", "2d", "rendering", "webgl", "canvas", "particles"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/pixijs-2d",
+      "branch": "main",
+      "sha": "671c6c691e2876063bd221dd2ba5e24f48a9ba2b"
+    }
+  },
+  {
+    "name": "playcanvas-engine",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/playcanvas-engine/SKILL.md",
+    "description": "Lightweight WebGL/WebGPU game engine with entity-component architecture and visual editor integration.",
+    "triggers": ["building browser-based games", "interactive 3D applications", "performance-critical web experiences", "PlayCanvas", "game engine development"],
+    "tags": ["playcanvas", "game-engine", "3d", "webgl", "webgpu"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/playcanvas-engine",
+      "branch": "main",
+      "sha": "905c1e03b05bf8e676d7d519067f242eabb0edae"
+    }
+  },
+  {
+    "name": "aframe-webxr",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/aframe-webxr/SKILL.md",
+    "description": "Declarative web framework for building browser-based 3D, VR, and AR experiences using HTML and entity-component architecture.",
+    "triggers": ["WebXR", "VR development", "AR development", "entity-component-system", "declarative 3D", "HTML-based 3D scenes", "A-Frame"],
+    "tags": ["aframe", "webxr", "vr", "ar", "3d", "declarative"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/aframe-webxr",
+      "branch": "main",
+      "sha": "76a4e695223085faba6b0b9028dfb67a17c163e4"
+    }
+  },
+  {
+    "name": "spline-interactive",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/spline-interactive/SKILL.md",
+    "description": "Browser-based 3D design tool with visual editor, animation, and web export.",
+    "triggers": ["Spline", "no-code 3D", "visual 3D editor", "3D animation", "state-based interactions", "React Spline integration", "scene export"],
+    "tags": ["spline", "3d", "design", "no-code", "visual-editor"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/spline-interactive",
+      "branch": "main",
+      "sha": "fc1717c47c93f638fb2033c4107954e5092f07b2"
+    }
+  },
+  {
+    "name": "blender-web-pipeline",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/blender-web-pipeline/SKILL.md",
+    "description": "Blender to web export workflows for 3D models and animations. Use when exporting Blender models to glTF for web, optimizing 3D assets for Three.js or Babylon.js, batch processing models with Python scripts.",
+    "triggers": ["Blender glTF export", "bpy scripting", "3D asset optimization", "model compression", "texture baking", "Blender automation"],
+    "tags": ["blender", "3d", "gltf", "export", "pipeline", "optimization"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/blender-web-pipeline",
+      "branch": "main",
+      "sha": "6e607abc3bbe2cddf67707609b191ef755620590"
+    }
+  },
+  {
+    "name": "substance-3d-texturing",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/substance-3d-texturing/SKILL.md",
+    "description": "Comprehensive skill for Adobe Substance 3D Painter texturing and material creation workflow.",
+    "triggers": ["Substance 3D Painter", "PBR texturing", "material creation", "texture export for Three.js/Babylon.js", "Python API automation"],
+    "tags": ["substance", "3d", "texturing", "pbr", "material"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/substance-3d-texturing",
+      "branch": "main",
+      "sha": "aa0ce282ea603d38584902d3b4e03c4eb72bfb91"
+    }
+  },
+  {
+    "name": "modern-web-design",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/modern-web-design/SKILL.md",
+    "description": "Modern web design trends, principles, and implementation patterns for 2024-2025.",
+    "triggers": ["modern design trends", "micro-interactions", "scrollytelling", "bold minimalism", "cursor UX", "glassmorphism", "accessibility compliance", "performance optimization", "design system architecture"],
+    "tags": ["design", "web", "modern", "ui", "ux", "trends"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/modern-web-design",
+      "branch": "main",
+      "sha": "a7e1cd6a4fea37ad9d4bc2e643d9c64f5ac77e33"
+    }
+  },
+  {
+    "name": "react-development",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/react-development/SKILL.md",
+    "description": "Comprehensive React development with hooks, components, state management, context, effects, and performance optimization based on official React documentation",
+    "triggers": ["react", "hooks", "components", "state management", "context", "effects", "performance optimization"],
+    "tags": ["react", "hooks", "state-management", "performance", "javascript"],
+    "skillfish": {
+      "owner": "manutej",
+      "repo": "luxor-claude-marketplace",
+      "path": "plugins/luxor-frontend-essentials/skills/react-development",
+      "branch": "main",
+      "sha": "af96d29627665fa8cf13899f863cf853c1e6a56a"
+    }
+  },
+  {
+    "name": "animated-component-libraries",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/animated-component-libraries/SKILL.md",
+    "description": "Pre-built animated React component collections combining Magic UI (150+ TypeScript/Tailwind/Motion components) and React Bits (90+ minimal-dependency animated components).",
+    "triggers": ["animated UI components", "Magic UI", "React Bits", "shadcn/ui integration", "Tailwind CSS components", "component library selection"],
+    "tags": ["react", "components", "animation", "ui", "tailwind"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/animated-component-libraries",
+      "branch": "main",
+      "sha": "6dc7b6877b94706e06191f1b349a26224905a02f"
+    }
+  },
+  {
+    "name": "lightweight-3d-effects",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/lightweight-3d-effects/SKILL.md",
+    "description": "Lightweight 3D effects for decorative elements and micro-interactions using Zdog, Vanta.js, and Vanilla-Tilt.js.",
+    "triggers": ["Zdog pseudo-3D", "Vanta.js backgrounds", "Vanilla-Tilt parallax", "card tilt effects", "hero section animations", "lightweight landing page visuals"],
+    "tags": ["3d", "lightweight", "effects", "zdog", "vanta", "tilt"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/lightweight-3d-effects",
+      "branch": "main",
+      "sha": "579e58479eaf40612858b86ee82f4cb594f0c6a7"
+    }
+  },
+  {
+    "name": "barba-js",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/barba-js/SKILL.md",
+    "description": "Page transitions library for creating fluid, smooth transitions between website pages.",
+    "triggers": ["Barba.js", "page transitions", "routing", "view management", "transition hooks", "GSAP integration", "smooth page navigation"],
+    "tags": ["barba.js", "page-transitions", "navigation", "animation"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/barba-js",
+      "branch": "main",
+      "sha": "9bcf15104e6a3a06ce2cd1adaaa17891abb4539a"
+    }
+  },
+  {
+    "name": "scroll-reveal-libraries",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/scroll-reveal-libraries/SKILL.md",
+    "description": "Simple scroll-triggered reveal animations using AOS (Animate On Scroll).",
+    "triggers": ["scroll animations", "scroll-triggered reveals", "AOS", "simple animations", "basic scroll effects"],
+    "tags": ["scroll", "animation", "aos", "reveal"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/scroll-reveal-libraries",
+      "branch": "main",
+      "sha": "1f19c8a688a981ffac7b4452b7365f8c968d852c"
+    }
+  },
+  {
+    "name": "locomotive-scroll",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/locomotive-scroll/SKILL.md",
+    "description": "Comprehensive skill for Locomotive Scroll smooth scrolling library with parallax effects, viewport detection, and scroll-driven animations.",
+    "triggers": ["Locomotive Scroll", "smooth scrolling", "parallax", "scroll detection", "scroll events", "sticky elements", "horizontal scrolling", "GSAP ScrollTrigger integration"],
+    "tags": ["locomotive-scroll", "smooth-scroll", "parallax", "scroll", "animation"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/locomotive-scroll",
+      "branch": "main",
+      "sha": "51748039e3d4797b107fa845563a812df61b3fbf"
+    }
+  },
+  {
+    "name": "tailwind-shadcn-ui-setup",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/tailwind-shadcn-ui-setup/SKILL.md",
+    "description": "Setup, configure, and initialize Tailwind CSS (v3 or v4) and shadcn/ui for Next.js 16 App Router projects. Configure dark mode, design tokens, base layout with header/sidebar, accessibility defaults.",
+    "triggers": ["setup Tailwind", "configure shadcn/ui", "add dark mode", "initialize design system", "setup UI framework"],
+    "tags": ["tailwind", "shadcn", "next.js", "setup", "ui", "dark-mode"],
+    "skillfish": {
+      "owner": "hopeoverture",
+      "repo": "worldbuilding-app-skills",
+      "path": "plugins/tailwind-shadcn-ui-setup/skills/tailwind-shadcn-ui-setup",
+      "branch": "master",
+      "sha": "323a2963321067a327d8b446ec9991858940cfa9"
+    }
+  },
+  {
+    "name": "tailwind-components",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/tailwind-components/SKILL.md",
+    "description": "Common Tailwind component patterns",
+    "triggers": ["tailwind components", "tailwind patterns"],
+    "tags": ["tailwind", "css", "components", "patterns"],
+    "skillfish": {
+      "owner": "bradtaylorsf",
+      "repo": "alphaagent-team",
+      "path": "plugins/aai-stack-tailwind/skills/tailwind-components",
+      "branch": "main",
+      "sha": "110f5637b52fd82524923cf40f4a3af2db1f17b4"
+    }
+  },
+  {
+    "name": "skill-creator",
+    "category": "frontend",
+    "path": ".opencode/skills/frontend/skill-creator/SKILL.md",
+    "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+    "triggers": ["create a new skill", "update an existing skill"],
+    "tags": ["meta", "skill-creation", "guide"],
+    "skillfish": {
+      "owner": "freshtechbro",
+      "repo": "claudedesignskills",
+      "path": ".claude/skills/skill-creator",
+      "branch": "main",
+      "sha": "27c1a2fc0ba6c1ac9ef17965adff7be37c14e9b7"
+    }
+  },
+  {
+    "name": "graphify",
+    "category": "Graphify",
+    "path": ".config/opencode/skills/graphify/SKILL.md",
+    "description": "Use for any question about a codebase, its architecture, file relationships, or project content. Turns any input into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools.",
+    "triggers": ["/graphify", "codebase question", "architecture", "file relationships", "project content", "knowledge graph"],
+    "tags": ["graph", "knowledge-graph", "codebase", "analysis", "visualization"],
+    "skillfish": null
+  },
+  {
+    "name": "context7-mcp",
+    "category": "context7-mcp",
+    "path": ".opencode/skills/context7-mcp/SKILL.md",
+    "description": "Fetch current documentation when user asks about libraries, frameworks, API references, or needs code examples.",
+    "triggers": ["setup questions", "code generation involving libraries", "mentions of specific frameworks"],
+    "tags": ["documentation", "library", "api", "framework", "code-examples"],
+    "skillfish": null
+  },
+  {
+    "name": "context7-mcp",
+    "category": "context7-mcp",
+    "path": ".agents/skills/context7-mcp/SKILL.md",
+    "description": "This skill should be used when the user asks about libraries, frameworks, API references, or needs code examples. Activates for setup questions, code generation involving libraries, or mentions of specific frameworks like React, Vue, Next.js, Prisma, Supabase, etc.",
+    "triggers": ["libraries", "frameworks", "API references", "code examples"],
+    "tags": ["documentation", "library", "api", "framework", "code-examples"],
+    "skillfish": null
+  },
+  {
+    "name": "understand",
+    "category": "Understand",
+    "path": ".agents/skills/understand/SKILL.md",
+    "description": "Analyze a codebase to produce an interactive knowledge graph for understanding architecture, components, and relationships",
+    "triggers": ["understand codebase", "architecture analysis", "knowledge graph"],
+    "tags": ["understand", "codebase", "analysis", "knowledge-graph"],
+    "skillfish": null
+  },
+  {
+    "name": "understand-chat",
+    "category": "Understand",
+    "path": ".opencode/skills/Understand/understand-chat/SKILL.md",
+    "description": "Use when you need to ask questions about a codebase or understand code using a knowledge graph",
+    "triggers": ["ask questions about a codebase", "understand code using a knowledge graph"],
+    "tags": ["understand", "chat", "knowledge-graph", "codebase"],
+    "skillfish": null
+  },
+  {
+    "name": "understand-dashboard",
+    "category": "Understand",
+    "path": ".opencode/skills/Understand/understand-dashboard/SKILL.md",
+    "description": "Launch the interactive web dashboard to visualize a codebase's knowledge graph",
+    "triggers": ["launch dashboard", "visualize knowledge graph"],
+    "tags": ["understand", "dashboard", "visualization", "knowledge-graph"],
+    "skillfish": null
+  },
+  {
+    "name": "understand-diff",
+    "category": "Understand",
+    "path": ".opencode/skills/Understand/understand-diff/SKILL.md",
+    "description": "Use when you need to analyze git diffs or pull requests to understand what changed, affected components, and risks",
+    "triggers": ["analyze git diffs", "pull request review", "what changed", "affected components", "risks"],
+    "tags": ["understand", "diff", "git", "pull-request", "review"],
+    "skillfish": null
+  },
+  {
+    "name": "understand-domain",
+    "category": "Understand",
+    "path": ".opencode/skills/Understand/understand-domain/SKILL.md",
+    "description": "Extract business domain knowledge from a codebase and generate an interactive domain flow graph",
+    "triggers": ["extract business domain knowledge", "domain flow graph"],
+    "tags": ["understand", "domain", "business", "knowledge-graph"],
+    "skillfish": null
+  },
+  {
+    "name": "understand-explain",
+    "category": "Understand",
+    "path": ".opencode/skills/Understand/understand-explain/SKILL.md",
+    "description": "Use when you need a deep-dive explanation of a specific file, function, or module in the codebase",
+    "triggers": ["deep-dive explanation", "specific file", "function", "module"],
+    "tags": ["understand", "explain", "codebase", "deep-dive"],
+    "skillfish": null
+  },
+  {
+    "name": "understand-knowledge",
+    "category": "Understand",
+    "path": ".opencode/skills/Understand/understand-knowledge/SKILL.md",
+    "description": "Analyze a Karpathy-pattern LLM wiki knowledge base and generate an interactive knowledge graph with entity extraction, implicit relationships, and topic clustering",
+    "triggers": ["LLM wiki knowledge base", "entity extraction", "implicit relationships", "topic clustering"],
+    "tags": ["understand", "knowledge", "wiki", "llm", "entity-extraction"],
+    "skillfish": null
+  },
+  {
+    "name": "understand-onboard",
+    "category": "Understand",
+    "path": ".agents/skills/understand-onboard/SKILL.md",
+    "description": "Use when you need to generate an onboarding guide for new team members joining a project",
+    "triggers": ["generate onboarding guide", "new team members", "joining a project"],
+    "tags": ["understand", "onboard", "onboarding", "guide"],
+    "skillfish": null
+  }
+]
