@@ -190,9 +190,9 @@ Frontend (brain-nexus)           Backend (FastAPI — planned)
 - [x] Custom Graphify dataset (2,519 nodes) — session context
 
 ### 🔄 Phase 2 — FastAPI Backend *(pending)*
-- [ ] FastAPI scaffold with routes: chat, synapse, search, node, stats
-- [ ] Neo4j database: import all 76K nodes + 270K edges
-- [ ] Full-text and vector indexes
+- [x] FastAPI scaffold with routes: chat, synapse, search, node, stats
+- [x] Neo4j database: import all 76K nodes + 270K edges
+- [x] Full-text and vector indexes
 
 ### 🔄 Phase 3 — Loisekk AI Agent *(pending)*
 - [ ] Server-side LangChain agent with persistent cross-session memory
