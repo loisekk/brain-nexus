@@ -25,7 +25,7 @@ export const StatusBar = () => {
       {} as Record<string, number>,
     );
 
-    return Object.entries(counts).sort((a, b) => b[1] - a[1])[0]?.[0];
+    return Object.entries(counts).sort((a: [string, number], b: [string, number]) => b[1] - a[1])[0]?.[0];
   }, [graph]);
 
   return (

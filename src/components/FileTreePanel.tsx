@@ -49,7 +49,7 @@ const buildFileTree = (nodes: GraphNode[]): TreeNode[] => {
     let currentPath = '';
     let currentLevel = root;
 
-    parts.forEach((part, index) => {
+    parts.forEach((part: string, index: number) => {
       currentPath = currentPath ? `${currentPath}/${part}` : part;
 
       let existing = pathMap.get(currentPath);
